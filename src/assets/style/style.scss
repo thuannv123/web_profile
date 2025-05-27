@@ -5,6 +5,9 @@
 a {
   text-decoration: none !important;
 }
+ul {
+  padding: 0 !important;
+}
 li {
   list-style: none;
 }
@@ -66,7 +69,8 @@ p {
         .general_info_image {
           width: 100%;
           height: 473px;
-          img {
+          .background_image {
+            background-image: url(https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp);
             position: absolute;
             top: 0;
             left: 0;
@@ -161,7 +165,7 @@ p {
             line-height: 0.75;
           }
           .main_title {
-            font-size: 92px;
+            font-size: 72px;
             font-weight: 800;
             color: #100f3a;
             line-height: 0.75;
@@ -468,6 +472,9 @@ p {
           }
         }
         .testimonials {
+          max-width: 800px;
+          margin: auto;
+          display: block;
           .test_item {
             width: 100%;
             background: #f7f8fc;
@@ -652,6 +659,261 @@ p {
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .super_container {
+    .content_container {
+      .main_content_outer {
+        .main_content {
+          width: calc(100% - 400px);
+          .main_title_container {
+            .main_title {
+              font-size: 72px;
+            }
+          }
+        }
+        .general_info {
+          width: 400px;
+          .general_info_image {
+            height: 400px;
+            img {
+              object-fit: cover;
+            }
+          }
+          .general_info_content {
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container-nav {
+    .nav-left {
+      .nav {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .super_container {
+    width: 100%;
+    height: auto;
+    .content_container {
+      .main_content_outer {
+        height: auto;
+        .main_content {
+          width: 100%;
+          .skill {
+            .milestones {
+              padding-bottom: 30px;
+              .milestone {
+                width: 50%;
+                margin-bottom: 60px;
+              }
+            }
+          }
+          .main_content_scroll {
+            .contact {
+              .container-fluid {
+                .contact_form_container {
+                  .contact_form {
+                    & > div {
+                      float: left;
+                      width: calc((100% - 30px) / 2);
+                      margin: 0;
+                      &:first-child {
+                        margin-right: 30px;
+                      }
+                    }
+                  }
+                }
+              }
+              .contact_map {
+                margin-top: 100px;
+              }
+            }
+          }
+        }
+        .general_info {
+          width: 100%;
+          .general_info_content {
+            padding-left: 80px;
+            .general_info_content_inner {
+              .general_info_title {
+                font-size: 24px;
+              }
+            }
+          }
+          .general_info_image {
+            width: 473px;
+            height: 473px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .super_container {
+    .content_container {
+      .main_content_outer {
+        .main_content {
+          .main_content_scroll {
+            .services {
+              .service {
+                width: 100%;
+              }
+            }
+            .education {
+              .edu_item {
+                .edu_year {
+                  margin-bottom: 60px;
+                }
+                .edu_content {
+                  padding-left: 0px;
+                  margin-top: 30px;
+                }
+              }
+            }
+          }
+        }
+        .general_info {
+          .general_info_content {
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 930px) {
+  .super_container {
+    width: 100%;
+    height: auto;
+    .content_container {
+      .main_content_outer {
+        .main_content {
+          .portfolio_grid {
+            .grid-item {
+              width: 48%;
+            }
+          }
+        }
+        .general_info {
+          .general_info_content {
+            padding-bottom: 40px;
+          }
+          .general_info_image {
+            width: 323px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .super_container {
+    .content_container {
+      .main_content_outer {
+        .main_content {
+          padding-left: 52px;
+          .main_title_container {
+            .main_title {
+              font-size: 48px;
+            }
+          }
+          .main_content_scroll .loaders .loader_container {
+            width: 100%;
+            .CircularProgressbar {
+              width: 195px;
+              margin: 0 auto;
+              display: block;
+            }
+          }
+          .skill {
+            .milestones {
+              .milestone {
+                width: 100%;
+              }
+            }
+          }
+          .experience {
+            .exp_time {
+              width: auto;
+              text-align: left;
+            }
+            .exp_content {
+              padding-left: 0px;
+              margin-top: 45px;
+            }
+          }
+          .portfolio_grid {
+            .grid-item {
+              width: 100%;
+            }
+          }
+          .main_content_scroll {
+            .contact {
+              .container-fluid {
+                .contact_form_container {
+                  .contact_form {
+                    & > div {
+                      float: left;
+                      width: 100%;
+                      margin: 0;
+                      &:first-child {
+                        margin-right: 0;
+                      }
+                    }
+                  }
+                }
+              }
+              .contact_map {
+                margin-top: 100px;
+              }
+            }
+          }
+        }
+        .general_info {
+          .general_info_image {
+            width: 100%;
+            height: calc(100vw - 81px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .super_container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    p {
+      font-size: 13px;
+    }
+    .content_container {
+      .main_content_outer {
+        .main_content {
+          padding-left: 30px;
+          padding-right: 30px;
+          .main_content_scroll {
+            padding-right: 0;
+          }
+          .main_title_container {
+            .main_title {
+              font-size: 36px;
             }
           }
         }

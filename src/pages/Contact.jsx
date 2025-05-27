@@ -42,6 +42,12 @@ const Contact = () => {
                             required="required"
                           />
                         </div>
+                        <input
+                          type="text"
+                          className="contact_input"
+                          placeholder="Subject"
+                          required="required"
+                        ></input>
                         <textarea
                           className="contact_input contact_textarea"
                           placeholder="Message"

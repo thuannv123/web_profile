@@ -4,6 +4,9 @@ import test1 from "../assets/images/test_1.jpg.webp";
 import test2 from "../assets/images/test_2.jpg.webp";
 import test3 from "../assets/images/test_3.jpg.webp";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function SimpleSlider() {
   const settings = {
     dots: true,
@@ -17,70 +20,74 @@ export default function SimpleSlider() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],
   };
+
   return (
-    <Slider {...settings} className="">
+    <Slider {...settings}>
       <div>
-        <div class="test_item">
-          <div class="test_title">Great to work with</div>
-          <div class="test_text">
+        <div className="test_item">
+          <div className="test_title">Great to work with</div>
+          <div className="test_text">
             <p>
               Etiam nec odio vestibulum est mattis effic iturut magna.
               Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum
               est mattis effic iturut magna. Pellentesque sit.
             </p>
           </div>
-          <div class="test_image">
+          <div className="test_image">
             <a href="#">
-              <img src={test1} alt="" />
+              <img src={test1} alt="Customer 1" />
             </a>
           </div>
-          <div class="test_info">
+          <div className="test_info">
             <a href="#">Diane Smith</a>
             <span>Customer</span>
           </div>
         </div>
       </div>
+
       <div>
-        <div class="test_item">
-          <div class="test_title">Great to work with</div>
-          <div class="test_text">
+        <div className="test_item">
+          <div className="test_title">Great to work with</div>
+          <div className="test_text">
             <p>
               Etiam nec odio vestibulum est mattis effic iturut magna.
               Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum
               est mattis effic iturut magna. Pellentesque sit.
             </p>
           </div>
-          <div class="test_image">
+          <div className="test_image">
             <a href="#">
-              <img src={test2} alt="" />
+              <img src={test2} alt="Customer 2" />
             </a>
           </div>
-          <div class="test_info">
+          <div className="test_info">
             <a href="#">Diane Smith</a>
             <span>Customer</span>
           </div>
         </div>
       </div>
+
       <div>
-        <div class="test_item">
-          <div class="test_title">Great to work with</div>
-          <div class="test_text">
+        <div className="test_item">
+          <div className="test_title">Great to work with</div>
+          <div className="test_text">
             <p>
               Etiam nec odio vestibulum est mattis effic iturut magna.
               Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum
               est mattis effic iturut magna. Pellentesque sit.
             </p>
           </div>
-          <div class="test_image">
+          <div className="test_image">
             <a href="#">
-              <img src={test3} alt="" />
+              <img src={test3} alt="Customer 3" />
             </a>
           </div>
-          <div class="test_info">
+          <div className="test_info">
             <a href="#">Diane Smith</a>
             <span>Customer</span>
           </div>

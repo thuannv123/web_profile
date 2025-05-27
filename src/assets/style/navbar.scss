@@ -8,6 +8,11 @@
   padding-top: 38px;
   padding-left: 40px;
   z-index: 10;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
   .nav-left {
     display: flex;
     gap: 20px;
@@ -15,6 +20,11 @@
       color: #100f3a;
       font-size: 36px;
       font-weight: 800;
+      -webkit-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      transition: all 200ms ease;
       span {
         color: #8583e1;
       }

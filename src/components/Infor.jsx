@@ -10,10 +10,7 @@ const Infor = () => {
     <div className="general_info d-flex flex-xl-column flex-md-row flex-column">
       <div>
         <div className="general_info_image">
-          <img
-            src="https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp"
-            alt=""
-          />
+          <div className="background_image"></div>
         </div>
       </div>
       <div className="general_info_content">
