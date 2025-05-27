@@ -8,6 +8,9 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Testimonials from "./pages/Testimonials";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -21,6 +24,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

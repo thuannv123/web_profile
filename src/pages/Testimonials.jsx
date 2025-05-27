@@ -1,5 +1,6 @@
 import React from "react";
 import Infor from "../components/infor";
+import SimpleSlider from "../components/SimpleSlider";
 
 const Testimonials = () => {
   return (
@@ -11,7 +12,11 @@ const Testimonials = () => {
             <div className="skill_subtitle">What clients say</div>
             <div className="main_title">Testimonials</div>
           </div>
-          <div className="main_content_scroll scroll"></div>
+          <div className="main_content_scroll scroll">
+            <div className="testimonials">
+              <SimpleSlider />
+            </div>
+          </div>
         </div>
       </div>
     </div>

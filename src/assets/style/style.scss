@@ -3,7 +3,7 @@
   --bs-font-sans-serif: "Montserrat", sans-serif !important;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 li {
   list-style: none;
@@ -16,7 +16,12 @@ div {
   display: block;
   position: relative;
 }
-
+.slick-slide {
+  padding: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
 .scroll::-webkit-scrollbar {
   width: 2px;
 }
@@ -164,7 +169,7 @@ p {
           }
         }
         .main_content_scroll {
-          margin-top: 40px;
+          margin-top: 60px;
           max-height: calc(100% - 193px - 72px - 30px);
           padding-right: 60px;
           overflow-y: auto;
@@ -423,6 +428,7 @@ p {
             background: #100f3a;
             width: 30%;
             position: relative;
+            cursor: pointer;
             img {
               max-width: 100%;
               height: 100%;
@@ -461,6 +467,154 @@ p {
             }
           }
         }
+        .testimonials {
+          .test_item {
+            width: 100%;
+            background: #f7f8fc;
+            padding-top: 74px;
+            padding-bottom: 74px;
+            padding-left: 46px;
+            padding-right: 40px;
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -ms-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+            margin: 20px 0;
+            &:hover {
+              box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            }
+            .test_title {
+              font-size: 20px;
+              font-weight: 700;
+              color: #100f3a;
+            }
+            .test_text {
+              margin-top: 24px;
+            }
+            .test_image {
+              width: 53px;
+              height: 53px;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-top: 42px;
+            }
+            .test_info {
+              font-size: 15px;
+              font-weight: 600;
+              margin-top: 25px;
+              a {
+                font-weight: 600;
+                color: #8583e1;
+              }
+              span {
+                color: #838383;
+                margin-left: 8px;
+              }
+            }
+          }
+          .slick-dots {
+            margin-top: 10px;
+            bottom: unset;
+            li {
+              margin: 0;
+              button {
+                width: 8px;
+                height: 8px;
+                background: #d5c6c6;
+                margin-left: 2px;
+                margin-right: 3px;
+                border-radius: 50%;
+                &:before {
+                  display: none;
+                }
+              }
+              &.slick-active {
+                button {
+                  background: #8583e1;
+                }
+              }
+            }
+          }
+        }
+        .contact {
+          width: 100%;
+          .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+            .contact_text {
+              margin-top: 25px;
+              padding-right: 22px;
+            }
+            .contact_form_container {
+              margin-top: 63px;
+              padding-right: 22px;
+              .contact_form {
+                & > div {
+                  margin-right: 30px;
+                  float: left;
+                  &:first-child {
+                    width: calc((100% - 30px) / 2);
+                  }
+                }
+                .contact_input {
+                  width: 100%;
+                  height: 40px;
+                  background: transparent;
+                  border: none;
+                  outline: none;
+                  border-bottom: solid 2px #a5a5a5;
+                  margin-bottom: 16px;
+                  -webkit-transition: all 200ms ease;
+                  -moz-transition: all 200ms ease;
+                  -ms-transition: all 200ms ease;
+                  -o-transition: all 200ms ease;
+                  transition: all 200ms ease;
+                  &::-webkit-input-placeholder {
+                    font-size: 12px;
+                    font-weight: 500;
+                    font-style: italic;
+                    color: #838383;
+                  }
+                }
+                .contact_textarea {
+                  height: 125px;
+                  padding-top: 15px;
+                }
+                .contact_button {
+                  width: 239px;
+                  height: 55px;
+                  background: #8583e1;
+                  color: #ffffff;
+                  font-size: 14px;
+                  font-weight: 500;
+                  cursor: pointer;
+                  border: none;
+                  outline: none;
+                  margin-top: 26px;
+                  -webkit-transition: all 200ms ease;
+                  -moz-transition: all 200ms ease;
+                  -ms-transition: all 200ms ease;
+                  -o-transition: all 200ms ease;
+                  transition: all 200ms ease;
+                  &:hover {
+                    background: #100f3a;
+                  }
+                }
+              }
+            }
+          }
+          .contact_map {
+            width: 100%;
+            height: 537px;
+            background: #000000;
+            .map {
+              width: 100%;
+              height: 100%;
+              opacity: 0.76;
+            }
+          }
+        }
       }
     }
   }
@@ -482,6 +636,21 @@ p {
             .services {
               .service {
                 width: calc(100% / 2);
+              }
+            }
+            .contact {
+              .container-fluid {
+                .contact_form_container {
+                  .contact_form {
+                    & > div {
+                      float: none;
+                      width: 100%;
+                      &:first-child {
+                        margin-right: 0px;
+                      }
+                    }
+                  }
+                }
               }
             }
           }
