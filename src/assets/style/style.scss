@@ -430,7 +430,7 @@ p {
           gap: 10px;
           .grid-item {
             background: #100f3a;
-            width: 30%;
+            width: 49%;
             position: relative;
             cursor: pointer;
             img {
@@ -828,6 +828,11 @@ p {
         .main_content {
           padding-left: 52px;
           .main_title_container {
+            .main_subtitle {
+              font-size: 24px;
+            }
+          }
+          .main_title_container {
             .main_title {
               font-size: 48px;
             }
@@ -908,6 +913,11 @@ p {
         .main_content {
           padding-left: 30px;
           padding-right: 30px;
+          .main_title_container {
+            .main_subtitle {
+              font-size: 18px;
+            }
+          }
           .main_content_scroll {
             padding-right: 0;
           }

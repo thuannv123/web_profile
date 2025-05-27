@@ -1,34 +1,13 @@
 import React from "react";
-import Slider from "react-slick";
+import Carousel from "react-bootstrap/Carousel";
 import test1 from "../assets/images/test_1.jpg.webp";
 import test2 from "../assets/images/test_2.jpg.webp";
 import test3 from "../assets/images/test_3.jpg.webp";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 export default function SimpleSlider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-        },
-      },
-    ],
-  };
-
   return (
-    <Slider {...settings}>
-      <div>
+    <Carousel>
+      <Carousel.Item>
         <div className="test_item">
           <div className="test_title">Great to work with</div>
           <div className="test_text">
@@ -48,9 +27,9 @@ export default function SimpleSlider() {
             <span>Customer</span>
           </div>
         </div>
-      </div>
+      </Carousel.Item>
 
-      <div>
+      <Carousel.Item>
         <div className="test_item">
           <div className="test_title">Great to work with</div>
           <div className="test_text">
@@ -62,7 +41,7 @@ export default function SimpleSlider() {
           </div>
           <div className="test_image">
             <a href="#">
-              <img src={test2} alt="Customer 2" />
+              <img src={test2} alt="Customer 1" />
             </a>
           </div>
           <div className="test_info">
@@ -70,9 +49,9 @@ export default function SimpleSlider() {
             <span>Customer</span>
           </div>
         </div>
-      </div>
+      </Carousel.Item>
 
-      <div>
+      <Carousel.Item>
         <div className="test_item">
           <div className="test_title">Great to work with</div>
           <div className="test_text">
@@ -84,7 +63,7 @@ export default function SimpleSlider() {
           </div>
           <div className="test_image">
             <a href="#">
-              <img src={test3} alt="Customer 3" />
+              <img src={test3} alt="Customer 1" />
             </a>
           </div>
           <div className="test_info">
@@ -92,7 +71,7 @@ export default function SimpleSlider() {
             <span>Customer</span>
           </div>
         </div>
-      </div>
-    </Slider>
+      </Carousel.Item>
+    </Carousel>
   );
 }
