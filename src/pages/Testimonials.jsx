@@ -1,6 +1,6 @@
 import React from "react";
-import Infor from "../components/infor";
 import SimpleSlider from "../components/SimpleSlider";
+import Infor from "../components/Infor";
 
 const Testimonials = () => {
   return (

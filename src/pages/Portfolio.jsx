@@ -1,32 +1,49 @@
 import React, { useState } from "react";
-import Infor from "../components/infor";
+import Infor from "../components/Infor";
+import bigcam from "../assets/images/bigcam.png";
+import keds from "../assets/images/keds.png";
+import ae from "../assets/images/ae.png";
+import cvt from "../assets/images/cvt.png";
+import v2c from "../assets/images/v2c.png";
+import cllc from "../assets/images/cllc.png";
 
-const categories = ["All", "Frontend", "Backend", "Data Analyst"];
+const categories = ["All", "Frontend", "Backend"];
 const data = [
   {
-    name: "Bigcam",
+    name: "Bigcamera",
     category: "Frontend",
-    image: "https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp",
+    image: bigcam,
+    url: "https://www.bigcamera.co.th/",
   },
   {
-    name: "Lensly",
-    category: "Backend",
-    image: "https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp",
-  },
-  {
-    name: "Brandico",
-    category: "Data Analyst",
-    image: "https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp",
-  },
-  {
-    name: "Mockup",
+    name: "Keds",
     category: "Frontend",
-    image: "https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp",
+    image: keds,
+    url: "https://keds.co.th/",
   },
   {
-    name: "Shootify",
-    category: "Backend",
-    image: "https://preview.colorlib.com/theme/vcard2/images/smith.jpg.webp",
+    name: "American Eagle",
+    category: "Frontend",
+    image: ae,
+    url: "https://aeo.th/",
+  },
+  {
+    name: "CVT",
+    category: "Frontend",
+    image: cvt,
+    url: "https://cvti.vn/",
+  },
+  {
+    name: "Visa2Canada",
+    category: "Frontend",
+    image: v2c,
+    url: "https://v2c.vn/",
+  },
+  {
+    name: "Canadian Language Learning Center",
+    category: "Frontend",
+    image: cllc,
+    url: "https://cllc.vn/",
   },
 ];
 
@@ -73,7 +90,9 @@ const Portfolio = () => {
                   >
                     <img src={item.image} alt={item.name} />
                     <div className="portfolio_item_content">
-                      <div className="portfolio_item_title">{item.name}</div>
+                      <div className="portfolio_item_title">
+                        <a href={item.url}>{item.name}</a>
+                      </div>
                     </div>
                   </div>
                 ))}

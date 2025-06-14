@@ -1,14 +1,38 @@
-import React from "react";
-import Infor from "../components/infor";
+import React, { useRef, useState } from "react";
+import Infor from "../components/Infor";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const [popupMessage, setPopupMessage] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_mydjk83", "template_1m6vz8b", form.current, {
+        publicKey: "6OfEktB5TsaUD22Rm",
+      })
+      .then(
+        () => {
+          setPopupMessage("Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          setPopupMessage("Failed to send message. Please try again.");
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div className="content_container">
       <div className="main_content_outer  d-flex flex-xl-row flex-column align-items-start justify-content-start">
         <Infor />
         <div className="main_content">
           <div className="main_title_container d-flex flex-column align-items-start justify-content-end">
-            <div className="skill_subtitle">What clients say</div>
+            <div className="skill_subtitle">
+              What’s the best way to get in touch with me?
+            </div>
             <div className="main_title">Contact me</div>
           </div>
           <div className="main_content_scroll scroll">
@@ -18,20 +42,25 @@ const Contact = () => {
                   <div className="col-xl-6">
                     <div className="contact_text">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus vitae sapien porttitor, dignissim quam sit
-                        ame. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Phasellus vitae sapien.
+                        Feel free to reach out if you have a project in mind,
+                        want to collaborate, or just want to say hello. I'm
+                        always open to new opportunities and exciting
+                        challenges.
                       </p>
                     </div>
                     <div className="contact_form_container">
-                      <form action="" className="contact_form ">
+                      <form
+                        action=""
+                        className="contact_form"
+                        ref={form}
+                        onSubmit={sendEmail}
+                      >
                         <div>
                           <input
                             type="text"
                             className="contact_input"
                             placeholder="Name"
-                            required="required"
+                            name="from_name"
                           />
                         </div>
                         <div>
@@ -39,21 +68,23 @@ const Contact = () => {
                             type="email"
                             className="contact_input"
                             placeholder="E-mail"
-                            required="required"
+                            name="from_email"
                           />
                         </div>
                         <input
                           type="text"
                           className="contact_input"
                           placeholder="Subject"
-                          required="required"
+                          name="subject"
                         ></input>
                         <textarea
                           className="contact_input contact_textarea"
                           placeholder="Message"
-                          required="required"
+                          name="message"
                         ></textarea>
-                        <button className="contact_button">Send Message</button>
+                        <button type="submit" className="contact_button">
+                          Send Message
+                        </button>
                       </form>
                     </div>
                   </div>
@@ -79,6 +110,19 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {popupMessage && (
+        <div className="popup">
+          <div className="popup_content">
+            <p>{popupMessage}</p>
+            <button
+              className="contact_button btn-popup"
+              onClick={() => setPopupMessage("")}
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

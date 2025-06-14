@@ -1,8 +1,6 @@
 import React from "react";
-import Infor from "../components/infor";
-import edu1 from "../assets/images/edu_1.png.webp";
-import edu2 from "../assets/images/edu_2.png.webp";
-import edu3 from "../assets/images/edu_3.png.webp";
+import edu1 from "../assets/images/fpt.png";
+import Infor from "../components/Infor";
 
 const Education = () => {
   return (
@@ -18,7 +16,7 @@ const Education = () => {
             <div className="education">
               <div className="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
                 <div>
-                  <div className="edu_year">2010</div>
+                  <div className="edu_year">2019</div>
                 </div>
                 <div>
                   <div className="edu_image">
@@ -27,71 +25,17 @@ const Education = () => {
                 </div>
                 <div className="edu_content">
                   <div className="edu_title_container">
-                    <div className="edu_title">University of Colorado</div>
-                    <div className="edu_subtitle">Developer Diploma PhD</div>
+                    <div className="edu_title">FPT Polytechnic</div>
+                    <div className="edu_subtitle">Website Design</div>
                   </div>
                   <div className="edu_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
-                <div>
-                  <div className="edu_year">2008</div>
-                </div>
-                <div>
-                  <div className="edu_image">
-                    <img src={edu2} alt="" />
-                  </div>
-                </div>
-                <div className="edu_content">
-                  <div className="edu_title_container">
-                    <div className="edu_title">Graphic School</div>
-                    <div className="edu_subtitle">Graphic Design Course</div>
-                  </div>
-                  <div className="edu_text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
-                <div>
-                  <div className="edu_year">2007</div>
-                </div>
-                <div>
-                  <div className="edu_image">
-                    <img src={edu3} alt="" />
-                  </div>
-                </div>
-                <div className="edu_content">
-                  <div className="edu_title_container">
-                    <div className="edu_title">Colorado High School</div>
-                    <div className="edu_subtitle">
-                      Bachelor Degree - Developer
-                    </div>
-                  </div>
-                  <div className="edu_text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
+                      I studied Website Design at FPT Polytechnic, where I
+                      gained solid knowledge and practical skills in creating
+                      responsive and user-friendly websites. The program covered
+                      essential technologies such as HTML, CSS, JavaScript, and
+                      principles of UI/UX design, preparing me to build
+                      effective and modern web interfaces.
                     </p>
                   </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Infor from "../components/infor";
+import Infor from "../components/Infor";
 
 const Experience = () => {
   return (
@@ -15,84 +15,69 @@ const Experience = () => {
             <div className="experience">
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2016-Present</div>
+                  <div className="exp_time">2024-Present</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Senior Developer</div>
-                    <div className="exp_subtitle">Company INC</div>
+                    <div className="exp_title">IT SPECIALIST</div>
+                    <div className="exp_subtitle">
+                      CVT Consulting and Investment Joint Stock Company
+                    </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
+                      I design and develop responsive website interfaces, manage
+                      content updates, and support the HR system using
+                      LarkSuite. I work with HTML, CSS, JavaScript, and
+                      WordPress to maintain sites like cvti.vn, v2c.vn, and
+                      cllc.vn.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2014-2016</div>
+                  <div className="exp_time">2023-2024</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Junior Developer</div>
-                    <div className="exp_subtitle">Company INC</div>
+                    <div className="exp_title">Front End Developer</div>
+                    <div className="exp_subtitle">Wiki Solution</div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
+                      I create website UI/UX concepts and design interfaces
+                      based on client requirements. I develop and maintain
+                      front-end functionality using HTML, CSS, jQuery, and
+                      implement responsive designs for various devices. I also
+                      manage website content such as product updates and
+                      articles, and design interfaces with Adobe XD and Figma.
+                      Technologies I work with include Magento, PHTML/LESS,
+                      jQuery, and PHP. Key projects include keds.co.th,
+                      bigcamera.co.th, and aeo.th.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2012-2014</div>
+                  <div className="exp_time">2022-2023</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Entry Level Developer</div>
-                    <div className="exp_subtitle">Company INC</div>
+                    <div className="exp_title">WEB DEVELOPER</div>
+                    <div className="exp_subtitle">
+                      Nina Trading and Services Company
+                    </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
-                <div>
-                  <div className="exp_time">2011-2012</div>
-                </div>
-                <div className="exp_content">
-                  <div className="exp_title_container">
-                    <div className="exp_title">Entry Level Developer</div>
-                    <div className="exp_subtitle">Company INC</div>
-                  </div>
-                  <div className="exp_text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
-                      Proin vitae tortor nec risus tristique efficitur. Aliquam
-                      luctus est urna, id aliquam orci tempus sed. Aenean sit
-                      amet leo id enim dapibus eleifend. Phasellus ut erat
-                      dapibus, tempor sapien non, porta urna.
+                      I design websites by translating Photoshop layouts into
+                      functional, user-friendly interfaces. I also upgrade and
+                      maintain existing websites to improve performance and
+                      usability. Using PHP, HTML/LESS, and JavaScript, I create
+                      user interfaces tailored to client requirements, ensuring
+                      responsive and visually appealing results.
                     </p>
                   </div>
                 </div>

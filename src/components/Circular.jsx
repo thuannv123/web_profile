@@ -48,23 +48,23 @@ const AnimatedLoader = ({ targetPercentage, title, subtitle }) => {
 export default function LoaderList() {
   const loaders = [
     {
-      targetPercentage: 0.75,
-      title: "intuition",
+      targetPercentage: 0.91,
+      title: "Enthusiasm",
       subtitle: "Etiam nec odio vestibulum est.",
     },
     {
       targetPercentage: 0.83,
       title: "creativity",
-      subtitle: "Odio vestibulum est mattis.",
+      subtitle: "Creative and solution-oriented.",
     },
     {
-      targetPercentage: 0.25,
-      title: "pure luck",
-      subtitle: "Vestibulum est mattis effic.",
+      targetPercentage: 0.79,
+      title: "Problem Solving",
+      subtitle: "Quick and efficient problem solving.",
     },
     {
-      targetPercentage: 0.95,
-      title: "awesomeness",
+      targetPercentage: 0.88,
+      title: "Awesomeness",
       subtitle: "Vestibulum est mattis effic.",
     },
   ];

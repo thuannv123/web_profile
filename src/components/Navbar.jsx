@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="container-nav">
       <div className="nav-left d-flex flex-row align-items-center justify-content-start">
         <div className="logo">
-          Edsel Le<span>.</span>CV
+          Thuan<span>.</span>CV
         </div>
         <nav className="nav">
           <NavLink

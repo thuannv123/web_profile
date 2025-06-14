@@ -6,8 +6,8 @@ import icon12 from "../assets/images/icon_12.png.webp";
 import icon13 from "../assets/images/icon_13.png.webp";
 import icon14 from "../assets/images/icon_14.png.webp";
 import icon15 from "../assets/images/icon_15.png.webp";
+import Infor from "../components/Infor";
 
-import Infor from "../components/infor";
 const Service = () => {
   return (
     <div className="content_container">
@@ -28,12 +28,12 @@ const Service = () => {
                         <img src={icon10} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Fast coding service</div>
+                    <div className="service_title">Website Development</div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Build responsive, fast, and user-friendly websites using
+                      HTML, CSS, JavaScript, and CMS platforms.
                     </p>
                   </div>
                 </div>
@@ -44,12 +44,12 @@ const Service = () => {
                         <img src={icon11} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Documentations</div>
+                    <div className="service_title">UI/UX Design to Code</div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Convert UI designs from Figma, Adobe XD, or Photoshop into
+                      clean and functional web interfaces.
                     </p>
                   </div>
                 </div>
@@ -60,12 +60,12 @@ const Service = () => {
                         <img src={icon12} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Online presentations</div>
+                    <div className="service_title">Landing Page Creation</div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Design and develop modern, SEO-friendly landing pages
+                      optimized for performance and conversion.
                     </p>
                   </div>
                 </div>
@@ -76,12 +76,14 @@ const Service = () => {
                         <img src={icon13} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Online shops</div>
+                    <div className="service_title">
+                      Website Maintenance & Updates
+                    </div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Update content, fix bugs, improve layouts, and ensure
+                      cross-browser compatibility on existing websites.
                     </p>
                   </div>
                 </div>
@@ -92,12 +94,14 @@ const Service = () => {
                         <img src={icon14} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Video footages</div>
+                    <div className="service_title">
+                      Responsive Design Implementation
+                    </div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Ensure websites look great and function well on all screen
+                      sizes and devices.
                     </p>
                   </div>
                 </div>
@@ -108,12 +112,14 @@ const Service = () => {
                         <img src={icon15} alt="" />
                       </div>
                     </div>
-                    <div className="service_title">Stock photos</div>
+                    <div className="service_title">
+                      E-commerce Website Customization
+                    </div>
                   </div>
                   <div className="service_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus vitae sapien porttitor, dignissim quam sit ame.
+                      Customize and maintain online stores using Magento2,
+                      Shopify, and WordPress WooCommerce.
                     </p>
                   </div>
                 </div>

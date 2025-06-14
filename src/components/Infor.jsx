@@ -22,13 +22,13 @@ const Infor = () => {
                 <img src={icon1} alt="" />
               </div>
               <div className="general_info_text">
-                Name: <span>Edsel Le</span>
+                Name: <span>Nguyen Van Thuan</span>
               </div>
             </li>
             <li className="d-flex flex-row align-items-center justify-content-start">
               <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"></div>
               <div className="general_info_text">
-                Location: <span>Ha Noi</span>
+                Location: <span>Ho Chi Minh</span>
               </div>
             </li>
             <li className="d-flex flex-row align-items-center justify-content-start">
@@ -44,21 +44,23 @@ const Infor = () => {
                 <img src={icon3} alt="" />
               </div>
               <div className="general_info_text">
-                <a href="mailto:edsel@gmail.com">edsel@gmail.com</a>
+                <a href="mailto:thuannv06022001@gmail.com">
+                  thuannv06022001@gmail.com
+                </a>
               </div>
             </li>
             <li className="d-flex flex-row align-items-center justify-content-start">
               <div className="general_info_icon d-flex flex-column align-items-start justify-content-center">
                 <img src={icon4} alt="" />
               </div>
-              <div className="general_info_text">1900 9090</div>
+              <div className="general_info_text">0857 086 588</div>
             </li>
             <li className="d-flex flex-row align-items-center justify-content-start">
               <div className="general_info_icon d-flex flex-column align-items-start justify-content-center">
                 <img src={icon5} alt="" />
               </div>
               <div className="general_info_text">
-                <a href="mailto:edsel@gmail.com">www.edsel.com</a>
+                <a href="mailto:edsel@gmail.com">www.alex.pro.vn</a>
               </div>
             </li>
           </ul>

@@ -4,26 +4,49 @@ import { Box, Typography } from "@mui/material";
 
 const skillData = [
   {
-    label: "Development",
-    value: 70,
+    label: "HTML / CSS",
+    value: 90,
     colorStart: "#79ccff",
     colorEnd: "#9b74ff",
   },
   {
-    label: "Creativity",
+    label: "Javascript",
     value: 83,
     colorStart: "#ff4646",
-    colorEnd: "#ff26d9",
+    colorEnd: "#F2CC39",
   },
-  { label: "Pure Luck", value: 25, colorStart: "#0054ff", colorEnd: "#ff23d3" },
+  { label: "React JS", value: 79, colorStart: "#0054ff", colorEnd: "#ff23d3" },
   {
-    label: "Awesomeness",
-    value: 95,
+    label: "JQuery",
+    value: 75,
     colorStart: "#79ff7c",
     colorEnd: "#ffbd4a",
   },
-  { label: "Skill 5", value: 90, colorStart: "#79ff8f", colorEnd: "#7b74ff" },
-  { label: "Skill 6", value: 100, colorStart: "#ff2d72", colorEnd: "#ffab79" },
+  { label: "PHP", value: 61, colorStart: "#79ff8f", colorEnd: "#7b74ff" },
+  {
+    label: "Tailwind CSS",
+    value: 81,
+    colorStart: "#ff2d72",
+    colorEnd: "#ffab79",
+  },
+  {
+    label: "Wordpress",
+    value: 88,
+    colorStart: "#A3CDD9",
+    colorEnd: "#F2DA5E",
+  },
+  {
+    label: "Magento2",
+    value: 77,
+    colorStart: "#F2F2F2",
+    colorEnd: "#36C8D9",
+  },
+  {
+    label: "Shopify",
+    value: 70,
+    colorStart: "#A3CDD9",
+    colorEnd: "#F2DA5E",
+  },
 ];
 
 const GradientLinearProgress = ({ value, colorStart, colorEnd }) => {
