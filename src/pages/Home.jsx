@@ -18,16 +18,16 @@ const Home = () => {
               <div className="about_title">Description</div>
               <div className="about_text">
                 <p>
-                  Dynamic Front-End Developer with 2+ years of professional
-                  experience in building, maintaining, and optimizing responsive
-                  web interfaces and e-commerce applications. Proficient in Core
-                  JavaScript (ES6+), modern styling frameworks, and
-                  transitioning towards advanced Component-Driven Architecture
-                  (ReactJS, Next.js). Strong expertise in converting complex UI
-                  concepts (Figma/Photoshop) into pixel-perfect, cross-browser
-                  compatible web pages. Skilled in AI-assisted development and
-                  automated workflows to maximize coding efficiency and
-                  accelerate debugging processes.
+                  Versatile Full-Stack Developer with 2+ years of professional
+                  experience building, optimizing, and maintaining scalable web
+                  applications and e-commerce platforms. Proficient across the
+                  JavaScript/TypeScript ecosystem, specializing in modern
+                  front-end frameworks (ReactJS, Next.js) and robust back-end
+                  solutions (Node.js, NestJS, Supabase). Strong expertise in
+                  transforming complex UI designs into responsive interfaces,
+                  developing RESTful APIs, and optimizing database management
+                  workflows. Skilled in leveraging AI-assisted workflows to
+                  accelerate debugging, rapid prototyping, and coding efficiency
                 </p>
               </div>
               <LoaderList />
