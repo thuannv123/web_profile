@@ -50,12 +50,12 @@ const Navbar = () => {
           >
             <span>Portfolio</span>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/testimonials"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <span>Testimonials</span>
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/contact"
             className={({ isActive }) => (isActive ? "active" : "")}
