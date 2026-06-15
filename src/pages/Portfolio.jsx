@@ -14,7 +14,7 @@ const data = [
     name: "Ads Launcher",
     category: "Frontend",
     image: Ads,
-    url: "https://new-launcher-ads-git-main-bebu06022001-4549s-projects.vercel.app/",
+    url: "https://www.sonkieu.site/",
   },
   {
     name: "Bigcamera",
