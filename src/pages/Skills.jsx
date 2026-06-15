@@ -28,12 +28,12 @@ const Skills = () => {
                         a focus on performance and accessibility. I am
                         proficient in core technologies such as HTML, CSS, and
                         JavaScript, and skilled in modern frameworks and
-                        libraries like ReactJS and jQuery. My responsibilities
-                        include developing clean and maintainable code,
-                        integrating APIs, and optimizing user interfaces to
-                        ensure seamless user experiences across different
-                        devices and browsers. I have hands-on experience working
-                        with popular CMS and e-commerce
+                        libraries like ReactJS, Wordpress and jQuery. My
+                        responsibilities include developing clean and
+                        maintainable code, integrating APIs, and optimizing user
+                        interfaces to ensure seamless user experiences across
+                        different devices and browsers. I have hands-on
+                        experience working with popular CMS and e-commerce
                       </p>
                     </div>
                     <div className="col-xl-6">

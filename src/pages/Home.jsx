@@ -18,13 +18,16 @@ const Home = () => {
               <div className="about_title">Description</div>
               <div className="about_text">
                 <p>
-                  I’m a passionate Frontend Developer with over 2 years of
-                  experience in creating responsive, user-focused websites and
-                  web applications. I have hands-on experience with HTML, CSS,
-                  JavaScript, and libraries/frameworks such as jQuery, ReactJS,
-                  WordPress, Magento2, and Shopify. I enjoy turning design ideas
-                  into functional, clean interfaces and continuously improving
-                  my skills to build better digital experiences.
+                  Dynamic Front-End Developer with 2+ years of professional
+                  experience in building, maintaining, and optimizing responsive
+                  web interfaces and e-commerce applications. Proficient in Core
+                  JavaScript (ES6+), modern styling frameworks, and
+                  transitioning towards advanced Component-Driven Architecture
+                  (ReactJS, Next.js). Strong expertise in converting complex UI
+                  concepts (Figma/Photoshop) into pixel-perfect, cross-browser
+                  compatible web pages. Skilled in AI-assisted development and
+                  automated workflows to maximize coding efficiency and
+                  accelerate debugging processes.
                 </p>
               </div>
               <LoaderList />

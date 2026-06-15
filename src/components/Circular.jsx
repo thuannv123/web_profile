@@ -50,7 +50,7 @@ export default function LoaderList() {
     {
       targetPercentage: 0.91,
       title: "Enthusiasm",
-      subtitle: "Etiam nec odio vestibulum est.",
+      subtitle: "I always bring enthusiasm to everything I do.",
     },
     {
       targetPercentage: 0.83,
@@ -65,7 +65,7 @@ export default function LoaderList() {
     {
       targetPercentage: 0.88,
       title: "Awesomeness",
-      subtitle: "Vestibulum est mattis effic.",
+      subtitle: "I'm working on my awesomeness every day.",
     },
   ];
 

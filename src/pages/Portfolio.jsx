@@ -6,9 +6,16 @@ import ae from "../assets/images/ae.png";
 import cvt from "../assets/images/cvt.png";
 import v2c from "../assets/images/v2c.png";
 import cllc from "../assets/images/cllc.png";
+import Ads from "../assets/images/AL.png";
 
 const categories = ["All", "Frontend", "Backend"];
 const data = [
+  {
+    name: "Ads Launcher",
+    category: "Frontend",
+    image: Ads,
+    url: "https://new-launcher-ads-git-main-bebu06022001-4549s-projects.vercel.app/",
+  },
   {
     name: "Bigcamera",
     category: "Frontend",
