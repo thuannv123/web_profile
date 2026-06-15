@@ -60,7 +60,7 @@ const Infor = () => {
                 <img src={icon5} alt="" />
               </div>
               <div className="general_info_text">
-                <a href="mailto:edsel@gmail.com">www.alex.pro.vn</a>
+                <a href="mailto:edsel@gmail.com">www.nguyenvanthuan.site</a>
               </div>
             </li>
           </ul>
