@@ -26,6 +26,13 @@ const Navbar = () => {
           >
             <span>Skills</span>
           </NavLink>
+
+          <NavLink
+            to="/portfolio"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            <span>Portfolio</span>
+          </NavLink>
           <NavLink
             to="/service"
             className={({ isActive }) => (isActive ? "active" : "")}
@@ -43,12 +50,6 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <span>Education</span>
-          </NavLink>
-          <NavLink
-            to="/portfolio"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            <span>Portfolio</span>
           </NavLink>
           {/* <NavLink
             to="/testimonials"
