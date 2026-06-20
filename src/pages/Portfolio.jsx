@@ -7,6 +7,7 @@ import cvt from "../assets/images/cvt.png";
 import v2c from "../assets/images/v2c.png";
 import cllc from "../assets/images/cllc.png";
 import Ads from "../assets/images/AL.png";
+import sonkieu from "../assets/images/icon.png";
 
 const categories = ["All", "Frontend", "Backend"];
 const data = [
@@ -15,6 +16,12 @@ const data = [
     category: "Frontend",
     image: Ads,
     url: "https://www.sonkieu.site/",
+  },
+  {
+    name: "Son Kieu",
+    category: "Frontend",
+    image: sonkieu,
+    url: "https://www.khudulichsonkieu.vn/",
   },
   {
     name: "Bigcamera",
