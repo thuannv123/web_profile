@@ -15,37 +15,60 @@ const Experience = () => {
             <div className="experience">
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2026 - 2026</div>
+                  <div className="exp_time">04/2026 - Present</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Full-Stack Developer</div>
-                    <div className="exp_subtitle">Pati Group</div>
+                    <div className="exp_title">Freelance Full-Stack Developer</div>
+                    <div className="exp_subtitle">
+                      Pati Group — Ads Launcher (ads.patigroup.com)
+                    </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      - Developed and maintained e-commerce platforms for
-                      supplement products.
+                      - Built LLM-powered features integrating OpenAI, Claude
+                      and Gemini APIs to automate marketing campaign data
+                      analysis for 5 internal users.
                       <br />
-                      - Built frontend features using React/Next.js.
+                      - Designed prompt templates and context strategies,
+                      reducing task time from 2 hours to 10 minutes.
                       <br />
-                      - Developed backend APIs and database systems.
+                      - Built async REST APIs in NestJS with a versioned prompt
+                      store on Supabase (PostgreSQL), so the marketing team
+                      could update prompts without redeploying.
                       <br />
-                      - Integrated AI-powered tools and workflows to improve
-                      development efficiency.
+                      - Developed e-commerce features for supplement products
+                      with React and Next.js.
+                    </p>
+                  </div>
+                  <div className="exp_title_container">
+                    <div className="exp_subtitle">
+                      MaoTrung — E-commerce (maotrung.com) &amp; BI Dashboard
+                      (bi.maotrung.com)
+                    </div>
+                  </div>
+                  <div className="exp_text">
+                    <p>
+                      - Built the maotrung.com front end in Next.js and
+                      integrated it with backend APIs for products.
                       <br />
-                      - Collaborated with product and marketing teams to deliver
-                      new features.
-                      <br />- Technologies Used: React.js, Next.js, TypeScript,
-                      Node.js, NestJS, PostgreSQL, Supabase, Git, GitHub, OpenAI
-                      API Architecture.
+                      - Developed a BI dashboard (bi.maotrung.com) tracking
+                      revenue and product sales volume for the management team.
+                      <br />
+                      - Built a competitor price comparison module that collects
+                      prices from competitor websites and matches them against
+                      MaoTrung&apos;s product catalog to support pricing
+                      decisions.
+                      <br />- Technologies Used: TypeScript, React, Next.js,
+                      Node.js, NestJS, PostgreSQL, Supabase, OpenAI / Claude /
+                      Gemini APIs, Git.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2024 - 2025</div>
+                  <div className="exp_time">07/2024 - 09/2025</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
@@ -53,80 +76,61 @@ const Experience = () => {
                       Front-End Developer / Web Operations
                     </div>
                     <div className="exp_subtitle">
-                      CVT Consulting and Investment Joint Stock Company
+                      CVT Consulting and Investment JSC
                     </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      - Transformed complex Figma and Photoshop mockups into
-                      semantic, clean, and highly responsive web components
+                      - Built responsive landing pages and campaign assets from
+                      Figma designs for business portals cvti.vn and v2c.vn.
                       <br />
-                      - Developed, optimized, and managed landing pages and
-                      promotional campaign assets to support dynamic digital
-                      marketing initiatives
-                      <br />
-                      - Customized content architecture and internal templates
-                      to enhance user experience and page layout flexibility.
-                      <br />
-                      - Conducted technical website monitoring, debugged
-                      front-end layout defects, and executed performance tuning
-                      to improve cross-browser rendering speeds.
-                      <br />- Technologies Used: JavaScript, HTML5, CSS3, CMS
-                      Architecture.
+                      - Monitored site performance and fixed front-end defects
+                      to improve cross-browser rendering speed.
+                      <br />- Technologies Used: JavaScript, HTML5, CSS3, CMS.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2023-2024</div>
+                  <div className="exp_time">03/2023 - 05/2024</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Front End Developer</div>
+                    <div className="exp_title">Front-End Developer</div>
                     <div className="exp_subtitle">Wiki Solution</div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      - Developed and refactored responsive front-end interfaces
-                      for international enterprise e-commerce platforms.
+                      - Developed and refactored front-end interfaces for
+                      international e-commerce platforms (bigcamera.co.th,
+                      keds.co.th, aeo.th).
                       <br />
-                      - Customized reusable dynamic templates and interface
-                      components using semantic layout structures.
-                      <br />- Collaborated closely with UI/UX designers to
-                      translate conceptual wireframes into interactive,
-                      fast-loading functional web pages.
-                      <br />
-                      - Maintained robust cross-browser compatibility and
-                      provided tier-2 support for troubleshooting visual and
-                      functional front-end bugs.
-                      <br />- Technologies Used: JavaScript, PHTML, LESS,
-                      jQuery, PHP
+                      - Built reusable templates and components, and provided
+                      tier-2 support for front-end bugs.
+                      <br />- Technologies Used: JavaScript, jQuery, LESS,
+                      PHTML, PHP, Magento 2.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
                 <div>
-                  <div className="exp_time">2022-2023</div>
+                  <div className="exp_time">09/2022 - 02/2023</div>
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">WEB DEVELOPER</div>
+                    <div className="exp_title">Front-End Developer</div>
                     <div className="exp_subtitle">
-                      Nina Trading and Services Company
+                      Nina Trading and Services Co., Ltd
                     </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      - Engineered responsive web layouts tailored precisely to
-                      client requirements based on high-fidelity Photoshop
-                      designs.
-                      <br />
-                      - Upgraded legacy client websites to modern responsive
-                      standards, enhancing visual interfaces and overall user
-                      experience.
-                      <br />- Technologies used: PHP, HTML/LESS, JavaScript
+                      - Built responsive layouts from Photoshop designs and
+                      upgraded legacy client websites to modern standards.
+                      <br />- Technologies Used: PHP, LESS, JavaScript, Magento
+                      2.
                     </p>
                   </div>
                 </div>

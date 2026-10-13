@@ -10,7 +10,7 @@ const Home = () => {
         <Infor />
         <div className="main_content">
           <div className="main_title_container d-flex flex-column align-items-start justify-content-end">
-            <div className="main_subtitle">Front-End Developer</div>
+            <div className="main_subtitle">Full-Stack AI Engineer</div>
             <div className="main_title">Nguyen Van Thuan</div>
           </div>
           <div className="main_content_scroll scroll">
@@ -18,16 +18,16 @@ const Home = () => {
               <div className="about_title">Description</div>
               <div className="about_text">
                 <p>
-                  Versatile Full-Stack Developer with 2+ years of professional
-                  experience building, optimizing, and maintaining scalable web
-                  applications and e-commerce platforms. Proficient across the
-                  JavaScript/TypeScript ecosystem, specializing in modern
-                  front-end frameworks (ReactJS, Next.js) and robust back-end
-                  solutions (Node.js, NestJS, Supabase). Strong expertise in
-                  transforming complex UI designs into responsive interfaces,
-                  developing RESTful APIs, and optimizing database management
-                  workflows. Skilled in leveraging AI-assisted workflows to
-                  accelerate debugging, rapid prototyping, and coding efficiency
+                  Full-stack engineer with 3+ years of web development
+                  experience, now focused on building production LLM
+                  applications. Since 04/2026, shipped LLM features used daily
+                  by a marketing team: multi-provider integration (OpenAI,
+                  Claude, Gemini), prompt and context engineering, structured
+                  JSON outputs, and a versioned prompt store that lets
+                  non-engineers iterate without redeploys. Strong TypeScript /
+                  NestJS / PostgreSQL back end plus React / Next.js front end,
+                  so can take an AI feature end-to-end from API design to UI.
+                  Works daily with coding agents (Claude Code, Gemini, Codex).
                 </p>
               </div>
               <LoaderList />
