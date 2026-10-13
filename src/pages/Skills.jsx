@@ -23,32 +23,25 @@ const Skills = () => {
                   <div className="row">
                     <div className="col-xl-6">
                       <p>
-                        As a Frontend Developer, I possess strong expertise in
-                        building responsive, user-centric web applications with
-                        a focus on performance and accessibility. I am
-                        proficient in core technologies such as HTML, CSS, and
-                        JavaScript, and skilled in modern frameworks and
-                        libraries like ReactJS, Wordpress and jQuery. My
-                        responsibilities include developing clean and
-                        maintainable code, integrating APIs, and optimizing user
-                        interfaces to ensure seamless user experiences across
-                        different devices and browsers. I have hands-on
-                        experience working with popular CMS and e-commerce
+                        I build production LLM applications on OpenAI, Claude
+                        and Gemini APIs, with multi-provider fallback,
+                        streaming, token and cost limits, tool / function
+                        calling, structured outputs (JSON schema), and prompt
+                        and context engineering. I work in Python, TypeScript,
+                        JavaScript, SQL and PHP, and build back ends with
+                        Node.js, NestJS, RESTful APIs, PostgreSQL and Supabase,
+                        including SQL for analytics and BI.
                       </p>
                     </div>
                     <div className="col-xl-6">
                       <p>
-                        platforms like WordPress, Magento2, and Shopify,
-                        customizing themes and plugins to meet client
-                        requirements. I am also experienced in using version
-                        control systems such as Git, and applying automation
-                        tools and build processes to streamline development
-                        workflows. In addition, I collaborate closely with
-                        designers, backend developers, and QA teams to deliver
-                        high-quality digital products. I am committed to
-                        continuously learning new technologies and best
-                        practices, improving code quality, and enhancing website
-                        performance.
+                        On the front end I use React, Next.js, Tailwind CSS,
+                        HTML5 and CSS3, built on 3+ years of front-end work for
+                        e-commerce platforms. I containerize services with
+                        Docker and deploy them to the cloud, use Git and GitHub
+                        for version control, and work daily with Claude Code,
+                        Gemini CLI and Codex, alongside Figma and Google
+                        Analytics.
                       </p>
                     </div>
                   </div>
@@ -61,7 +54,7 @@ const Skills = () => {
                     <img src={icon6} alt="" />
                   </div>
                   <div className="milestone_counter" data-end-value="14">
-                    2+
+                    3+
                   </div>
                   <div className="milestone_text">Years of Experience</div>
                 </div>

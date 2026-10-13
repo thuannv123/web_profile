@@ -19,16 +19,26 @@ const Experience = () => {
                 </div>
                 <div className="exp_content">
                   <div className="exp_title_container">
-                    <div className="exp_title">Freelance Full-Stack Developer</div>
+                    <div className="exp_title">
+                      Freelance AI / Full-Stack Developer
+                    </div>
                     <div className="exp_subtitle">
                       Pati Group — Ads Launcher (ads.patigroup.com)
                     </div>
                   </div>
                   <div className="exp_text">
                     <p>
-                      - Built LLM-powered features integrating OpenAI, Claude
-                      and Gemini APIs to automate marketing campaign data
-                      analysis for 5 internal users.
+                      - Built LLM-powered features on OpenAI, Claude and Gemini
+                      APIs to automate marketing campaign data analysis for 5
+                      daily internal users.
+                      <br />
+                      - Implemented provider fallback, streaming responses and
+                      per-request token and cost limits to keep the features
+                      reliable and within budget.
+                      <br />
+                      - Used tool / function calling and JSON-schema structured
+                      outputs so the model could query campaign data and return
+                      results the application could consume directly.
                       <br />
                       - Designed prompt templates and context strategies,
                       reducing task time from 2 hours to 10 minutes.
@@ -36,6 +46,9 @@ const Experience = () => {
                       - Built async REST APIs in NestJS with a versioned prompt
                       store on Supabase (PostgreSQL), so the marketing team
                       could update prompts without redeploying.
+                      <br />
+                      - Containerized services with Docker and deployed them to
+                      the cloud.
                       <br />
                       - Developed e-commerce features for supplement products
                       with React and Next.js.
@@ -50,7 +63,7 @@ const Experience = () => {
                   <div className="exp_text">
                     <p>
                       - Built the maotrung.com front end in Next.js and
-                      integrated it with backend APIs for products.
+                      integrated it with backend product APIs.
                       <br />
                       - Developed a BI dashboard (bi.maotrung.com) tracking
                       revenue and product sales volume for the management team.
@@ -59,9 +72,28 @@ const Experience = () => {
                       prices from competitor websites and matches them against
                       MaoTrung&apos;s product catalog to support pricing
                       decisions.
-                      <br />- Technologies Used: TypeScript, React, Next.js,
-                      Node.js, NestJS, PostgreSQL, Supabase, OpenAI / Claude /
-                      Gemini APIs, Git.
+                      <br />- Technologies Used: Python, TypeScript, React,
+                      Next.js, Node.js, NestJS, PostgreSQL, Supabase, Docker,
+                      OpenAI / Claude / Gemini APIs, Git.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+                <div>
+                  <div className="exp_time">09/2025 - 03/2026</div>
+                </div>
+                <div className="exp_content">
+                  <div className="exp_title_container">
+                    <div className="exp_title">Self-directed Study</div>
+                    <div className="exp_subtitle">AI / LLM Engineering</div>
+                  </div>
+                  <div className="exp_text">
+                    <p>
+                      - Full-time self-study to transition from front-end to AI
+                      engineering: Python, LLM APIs, prompt engineering and tool
+                      / function calling, applied directly in the freelance
+                      projects above.
                     </p>
                   </div>
                 </div>

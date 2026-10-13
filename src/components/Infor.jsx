@@ -28,7 +28,7 @@ const Infor = () => {
             <li className="d-flex flex-row align-items-center justify-content-start">
               <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"></div>
               <div className="general_info_text">
-                Location: <span>Ho Chi Minh</span>
+                Location: <span>Ho Chi Minh City</span>
               </div>
             </li>
             <li className="d-flex flex-row align-items-center justify-content-start">
